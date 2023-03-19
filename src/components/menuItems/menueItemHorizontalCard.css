@@ -1,0 +1,107 @@
+.items-swiper{
+    margin-left: 16px!important;
+    cursor: pointer;
+}
+
+.Horizontal-card{
+    width: 200px !important;
+    max-width: 200px !important;
+    height: 260px !important;
+    background-color: #222325;
+    border-radius: 25px;
+    padding: 5px 5px;
+}
+
+.inner-box{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #9d4e54;
+    border-radius: 20px;
+}
+
+.coffee-image{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.coffee-image-modal{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item-name, .fee{
+    font-size: 20px;
+    font-weight: bold;
+    color: #deddd8;
+}
+
+.item-description{
+    color: #9c9d9f;
+    font-size: 16px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.item-description-modal{
+    color: #9c9d9f;
+    font-size: 16px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+}
+
+.modal-fix{
+    max-width: 510px;
+    width: 100%;
+    height: 693px;
+    position: fixed;
+    top: -78px;
+    left: 50%;
+    transform-origin: center;
+    transform: translate(-50%, 0) scale(0);
+    background-color: #222325;
+    border-radius: 25px;
+    padding: 5px 5px;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.modal-fix-show{
+    opacity: 1;
+    transform-origin: center;
+    transform: translate(-50%, 0) scale(1);
+    transition: all ease-in-out 0.5s;
+    z-index: 10;
+}
+
+.modal-fix-inner-box{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #9d4e54;
+    border-radius: 20px;
+}
+
+.close{
+    width: 36px;
+    height: 36px;
+    top: -15px;
+    right: -7px;
+    cursor: pointer;
+}
+
+.swiper-hidden {
+    transition: all ease-in-out 0.5s;
+    visibility: hidden;
+}
+
+.content {
+    height: 100%;
+    max-height: 375px;
+}
