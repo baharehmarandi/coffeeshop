@@ -1,21 +1,41 @@
+.coffee {
+    z-index: 1000;
+    width: 100%;
+    max-width: 530px !important;
+}
+
 .coffee>img{
     width: 100%;
-    height: 200px;
+    height: 160px;
     object-fit: cover;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
 }
 
 .logo{
     width: 40%;
-    height: 70px;
+    height: 50px;
     border-radius: 45px;
-    background-color: #ebdbcc;
-    bottom: -32px;
+    background-color: #EBDBCC;
+    bottom: -28px;
     left: 50%;
+    padding: 7%;
     transform: translate(-50%, 0);
 }
 
 .logo>img{
     object-fit: cover;
+}
+
+.language{
+    background-color: #4c5662;
+    width: 50px;
+    height: 50px;
+    top: 18px;
+    right: 29px;
+    border: none;
+    border-radius: 14px;
+    color: #fbfbf9;
+    font-size: 20px;
+    font-weight: bold;
 }

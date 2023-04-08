@@ -1,28 +1,51 @@
+/* Google fonts & font family
+==================================================*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700);
+
+/* General
+==================================================*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
 .main{
     width: 100%;
     height: 100vh;
     background-color: #ebdbcc;
 }
 
+.item-section {
+    margin-top: 235px;
+    height: calc(100vh - 235px);
+}
+
+.overflow-scrollable {
+    overflow-y: scroll;
+}
+
 .menu-swiper{
-    margin-top: 50px;
-    margin-left: 16px;
+    margin-top: 185px;
+    margin-left: 12px;
     cursor: pointer;
     opacity: 1;
 }
 
 .swiper-slide{
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     width: auto!important;
-    color: #9f948e;
+    color: #8A8A8A;
 }
 
 .swiper-slide-active{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
     width: auto!important;
-    color: #ca3741;
+    color: #D33939;
 }
 
 .current-position {
